@@ -118,6 +118,7 @@ header .fa-bars{
 .home .content h3{
     font-size: 6rem;
     color: #333;
+    font-weight: bold;
 }
 
 .home .content span{
@@ -129,7 +130,7 @@ header .fa-bars{
 
 .home .content p{
     font-size: 1.5rem;
-    color:#999;
+    color: #333;
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -149,7 +150,7 @@ header .fa-bars{
 }
 
 .about .row .img-container img{
-    width: 100%;
+    width: 90%;
     border: 1.5rem solid #fff;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -180,9 +181,13 @@ header .fa-bars{
     flex: 1 1 40rem;
 }
 
+.about .row .social-icons{
+    align-items: center;
+}
+
 .skills{
-    width: 50%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 600px;
     padding: 0 20px;
 }
 
