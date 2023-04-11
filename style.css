@@ -159,11 +159,19 @@ header .fa-bars{
 }
 
 .about .row .content{
-    font-size: 20px;
     flex: 1 1 40rem;
-    font-weight: bold;
 }
 
+.about .row .content h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.about .row .content p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
 .about .row .content span{
     color: var(--pink);
 }
