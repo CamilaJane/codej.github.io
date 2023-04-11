@@ -93,6 +93,7 @@ header .fa-bars{
         background: #eee;
         border-top: .1rem solid rgba(0, 0, 0, .1);
     }
+    
 
     header .navbar a{
         margin: 1.5rem;
@@ -100,5 +101,12 @@ header .fa-bars{
         background: #fff;
         border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
+    }
+}
+
+@media(max-width:450px){
+    
+    html{
+        font-size: 50%;
     }
 }
