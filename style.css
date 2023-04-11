@@ -67,3 +67,21 @@ header .fa-bars{
     border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
+
+@media(max-width:991px){
+    
+    html{
+        font-size: 55%;
+    }
+
+    header{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px){
+
+    html .fa-bars{
+        display: block;
+    }
+}
